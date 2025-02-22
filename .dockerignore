@@ -1,0 +1,29 @@
+# Ignore node_modules to prevent redundant installs
+node_modules
+npm-debug.log
+
+# Ignore environment configuration files
+.env
+.env.local
+.DS_Store
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Docker-related files that are not needed inside the container
+docker-compose.yml
+.dockerignore
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific files
+Thumbs.db

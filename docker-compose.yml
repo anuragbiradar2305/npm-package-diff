@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  package-diff-npm:
+    image: npm-package-diff
+    build: .
+    ports:
+      - "2305:2305"
+    env_file:
+      - .env
+    restart: always
